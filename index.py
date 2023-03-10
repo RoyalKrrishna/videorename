@@ -14,8 +14,8 @@ bot = Bot(TOKEN)
 
 
 def welcome(update, context) -> None:
-    update.message.reply_text(f"Hello {update.message.from_user.first_name}, Welcome to ip Movies.\n"
-                              f"🔥 Download Your Favourite Movies For 💯 Free And 🍿 Enjoy it.")
+    update.message.reply_text(f"Hello {update.message.from_user.first_name}, I am Doluram bot.\n"
+                              f"🔥 Download your favourite movies for free and enjoy it.🍿")
     update.message.reply_text("👇 Enter Movie Name 👇")
 
 
